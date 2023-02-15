@@ -401,7 +401,7 @@ def onmessage(update,bot:ObigramClient):
                    getUser['zips'] = size
                    jdb.save_data_user(username,getUser)
                    jdb.save()
-                   msg = 'Ahora los zips seran de '+ sizeof_fmt(size*1024*1024) +'\n'
+                   msg = 'Ahora los zips hijo de perra seran de '+ sizeof_fmt(size*1024*1024) +'\n'
                    msg+= 'Añadiendo a la configuración...\n'
                    bot.sendMessage(update.message.chat.id,msg)
                    statInfo = infos.createStat(username,getUser,jdb.is_admin(username))
@@ -614,12 +614,12 @@ def onmessage(update,bot:ObigramClient):
             #if update:
             #    api_id = os.environ.get('api_id')
             #    api_hash = os.environ.get('api_hash')
-            #    bot_token = os.environ.get('bot_token')
+            #    bot_token = os.environ.get('bot_token') "5859199429:AAHTSL5G78s-NKGlxtGrz-JEjIx1LydfbQ0'
             #    
                 # set in debug
-            #    api_id = 7386053
-            #    api_hash = '78d1c032f3aa546ff5176d9ff0e7f341'
-            #    bot_token = '5124841893:AAH30p6ljtIzi2oPlaZwBmCfWQ1KelC6KUg'
+            #    api_id = 5859199429
+            #    api_hash =  '5859199429:AAHTSL5G78s-NKGlxtGrz-JEjIx1LydfbQ0'
+            #    bot_token = '5859199429:AAHTSL5G78s-NKGlxtGrz-JEjIx1LydfbQ0'
 
             #    chat_id = int(update.message.chat.id)
             #    message_id = int(update.message.message_id)
@@ -633,13 +633,13 @@ def onmessage(update,bot:ObigramClient):
 
 def main():
     bot_token = os.environ.get('bot_token')
-
+'5859199429:AAHTSL5G78s-NKGlxtGrz-JEjIx1LydfbQ0'
     
-    bot = ObigramClient(bot_token)
+    bot = ObigramClient(bot_token) '5859199429:AAHTSL5G78s-NKGlxtGrz-JEjIx1LydfbQ0'
     bot.onMessage(onmessage)
     bot.run()
 
-if __name__ == '__main__':
+if __name__ == '__main__': 'josephPg'
     try:
         main()
     except:
